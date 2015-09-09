@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+ xmlns:tts="http://www.w3.org/ns/ttml#styling" ttp:timeBase="media" xml:lang="en"
+ ttp:cellResolution="50 30">
+	<head>
+		<styling>		
+			<style xml:id="spanStyle" tts:color="#ffffff" tts:backgroundColor="#000000" tts:fontSize="160%" tts:fontFamily="monospace"/>
+			<style xml:id="startAlign" tts:textAlign="start" />
+			<style xml:id="endAlign" tts:textAlign="end" />			
+		</styling>
+		<layout>
+			<region xml:id="startBefore" tts:origin="0% 0%" tts:extent="50% 50%" tts:displayAlign="before" />
+			<region xml:id="endBefore" tts:origin="50% 0%" tts:extent="50% 50%" tts:displayAlign="before" />
+			<region xml:id="startAfter" tts:origin="0% 50%" tts:extent="50% 50%" tts:displayAlign="after" />			
+			<region xml:id="endAfter" tts:origin="50% 50%" tts:extent="50% 50%" tts:displayAlign="after" />
+		</layout>
+	</head>
+	<body>
+		<div>
+			<p xml:id="subtitle1" region="startBefore" style="startAlign">
+				<span style="spanStyle" begin="00:00:10.000" end="00:00:20.000">start/before</span>				
+			</p>			
+			<p xml:id="subtitle2" region="endBefore" style="endAlign">
+				<span style="spanStyle" begin="00:00:10.000" end="00:00:20.000">end/before</span>				
+			</p>
+			<p xml:id="subtitle3" region="startAfter" style="startAlign">
+				<span style="spanStyle" begin="00:00:10.000" end="00:00:20.000">start/after</span>				
+			</p>
+			<p xml:id="subtitle4" region="endAfter" style="endAlign">
+				<span style="spanStyle" begin="00:00:10.000" end="00:00:20.000">end/after</span>				
+			</p>
+			<p xml:id="subtitle5" region="startBefore" style="startAlign">
+				<span style="spanStyle" begin="00:00:22.000" end="00:00:30.000">start/before</span>				
+			</p>			
+			<p xml:id="subtitle6" region="endBefore" style="endAlign">
+				<span style="spanStyle" begin="00:00:22.000" end="00:00:30.000">end/before</span>				
+			</p>
+			<p xml:id="subtitle7" region="startAfter" style="startAlign">
+				<span style="spanStyle" begin="00:00:22.000" end="00:00:30.000">start/after</span>				
+			</p>
+			<p xml:id="subtitle8" region="endAfter" style="endAlign">
+				<span style="spanStyle" begin="00:00:22.000" end="00:00:30.000">end/after</span>				
+			</p>						
+		</div>
+	</body>
+</tt>
