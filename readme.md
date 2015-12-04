@@ -48,7 +48,7 @@ Example for an EBU-TT-D sample image to demonstrate rendering of the text alignm
     textalign-start-001-image.png
     
 ##AUTHORS
-Andreas Tai, Peter tho Pesch
+Andreas Tai, Peter tho Pesch, Stefan Pöschel
 
 ## Acknowledgement
 Parts of the IRT EBU-TT-D Application Samples were developed in the European collaborative research project HBB4ALL  (Grant Agreement no 621014). This project has received funding from the European Union ICT Policy Support Programme (ICT PSP) under the Competitiveness and Innovation Framework Programme (CIP). 
