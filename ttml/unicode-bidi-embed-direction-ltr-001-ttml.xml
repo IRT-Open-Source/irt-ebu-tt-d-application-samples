@@ -21,20 +21,21 @@ limitations under the License.
  xml:lang="de" ttp:cellResolution="50 30">
 	<tt:head>
 		<tt:styling>
-			<tt:style xml:id="textLTR" tts:direction="ltr" tts:unicodeBidi="embed"/>
-			<tt:style xml:id="paragraphAlign" tts:textAlign="center" tts:color="#ffffff" tts:backgroundColor="#000000" tts:fontSize="160%" tts:fontFamily="monospace" />
+			<tt:style xml:id="spanStyle" tts:color="#ffffff" tts:backgroundColor="#000000" tts:fontSize="160%" tts:fontFamily="monospace"/>			
+			<tt:style xml:id="textLTR" tts:direction="ltr" tts:unicodeBidi="embed" tts:backgroundColor="#000000" tts:color="#ffffff" tts:fontSize="160%" tts:fontFamily="monospace" />
+			<tt:style xml:id="paragraphAlign" tts:textAlign="left" />
 		</tt:styling>
 		<tt:layout>
-			<tt:region xml:id="bottom" tts:origin="10% 10%" tts:extent="80% 80%" tts:displayAlign="after" tts:writingMode="rltb"/>
+			<tt:region xml:id="top" tts:origin="10% 10%" tts:extent="80% 80%" tts:displayAlign="before" tts:writingMode="lrtb"/>
 		</tt:layout>
 	</tt:head>
 	<tt:body>
 		<tt:div>
-			<tt:p xml:id="subtitle1" region="bottom" begin="00:00:10.000" end="00:00:20.000" style="paragraphAlign">
-				Inline direction RTL and <tt:span style="textLTR">LTR!</tt:span> inside. 
+			<tt:p xml:id="subtitle1" region="top" begin="00:00:10.000" end="00:00:20.000" style="paragraphAlign">
+				<tt:span style="spanStyle">bahrain </tt:span><tt:span style="textLTR">مصر 2015</tt:span><tt:span style="spanStyle"> kuwait</tt:span> 
 			</tt:p>
-			<tt:p xml:id="subtitle2" region="bottom" begin="00:00:22.000" end="00:00:30.000" style="paragraphAlign">
-				Inline direction RTL and <tt:span style="textLTR">LTR!</tt:span> inside. 
+			<tt:p xml:id="subtitle2" region="top" begin="00:00:22.000" end="00:00:30.000" style="paragraphAlign">
+				<tt:span style="spanStyle">bahrain </tt:span><tt:span style="textLTR">مصر 2015</tt:span><tt:span style="spanStyle"> kuwait</tt:span> 
 			</tt:p>
 		</tt:div>
 	</tt:body>
