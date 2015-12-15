@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt:tt  xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:tt="http://www.w3.org/ns/ttml" ttp:timeBase="media" xml:lang="de" ttp:cellResolution="50 30">
+	<tt:head>
+		<tt:styling>
+			<tt:style xml:id="textWhite" tts:color="#ffffff" tts:backgroundColor="#000000" tts:fontSize="160%" tts:fontFamily="monospace" />
+			<tt:style xml:id="paragraphAlign" tts:textAlign="right" />
+		</tt:styling>
+		<tt:layout>
+			<tt:region xml:id="right" tts:origin="10% 10%" tts:extent="80% 80%" tts:displayAlign="before" tts:writingMode="tb"/>
+		</tt:layout>
+	</tt:head>
+	<tt:body>
+		<tt:div>
+			<tt:p xml:id="subtitle1" region="right" begin="00:00:12.000" end="00:00:16.000" style="paragraphAlign">
+				<tt:span style="textWhite">first line</tt:span>
+			</tt:p>
+			<tt:p xml:id="subtitle2" region="right" begin="00:00:14.000" end="00:00:16.000" style="paragraphAlign">
+				<tt:span style="textWhite">second line</tt:span>
+			</tt:p>
+
+			<tt:p xml:id="subtitle3" region="right" begin="00:00:24.000" end="00:00:28.000" style="paragraphAlign">
+				<tt:span style="textWhite">first line</tt:span>
+			</tt:p>
+			<tt:p xml:id="subtitle4" region="right" begin="00:00:26.000" end="00:00:28.000" style="paragraphAlign">
+				<tt:span style="textWhite">second line</tt:span>
+			</tt:p>
+		</tt:div>
+	</tt:body>
+</tt:tt>
