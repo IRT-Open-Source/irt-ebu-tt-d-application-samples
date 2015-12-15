@@ -9,16 +9,18 @@
 			<style xml:id="paragraphStyle" tts:textAlign="start" />
 		</styling>
 		<layout>
-			<region xml:id="top" tts:origin="10% 10%" tts:extent="80% 80%" tts:displayAlign="before" tts:writingMode="rltb"/>
+			<region xml:id="top" tts:origin="10% 10%" tts:extent="80% 80%" tts:displayAlign="before" tts:writingMode="rl"/>
 		</layout>
 	</head>
 	<body>
 		<div>
 			<p xml:id="subtitle1" region="top" begin="00:00:10.000" end="00:00:20.000" style="paragraphStyle">
-				<span style="spanStyle">bahrain مصر kuwait</span>
+				<span style="spanStyle">first line</span><br/>
+				<span style="spanStyle">second line</span>
 			</p>
 			<p xml:id="subtitle2" region="top" begin="00:00:22.000" end="00:00:30.000" style="paragraphStyle">
-				<span style="spanStyle">bahrain مصر kuwait</span>
+				<span style="spanStyle">first line</span><br/>
+				<span style="spanStyle">second line</span>
 			</p>			
 		</div>
 	</body>
