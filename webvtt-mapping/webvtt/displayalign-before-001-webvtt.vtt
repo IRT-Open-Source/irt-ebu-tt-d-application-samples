@@ -1,0 +1,9 @@
+WEBVTT
+
+subtitle1
+00:00:10.000 --> 00:00:20.000  size:80% line:10% position:10%,start align:middle
+<lang en><c.spanStyle>One line Subtitle.</c></lang>
+
+subtitle2 
+00:00:22.000 --> 00:00:30.000 size:80% line:10% position:10%,start align:middle
+<lang en><c.spanStyle>One line Subtitle.</c></lang>

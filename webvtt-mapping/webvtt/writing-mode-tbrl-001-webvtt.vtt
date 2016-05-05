@@ -1,0 +1,17 @@
+WEBVTT
+
+subtitle1
+00:00:12.000 --> 00:00:16.000 size:80% position:10% line:10% align:start vertical:rl
+<lang en><c.textWhite>first line</c></lang>
+
+subtitle2
+00:00:14.000 --> 00:00:16.000 size:80% position:10% line:10% align:start vertical:rl
+<lang en><c.textWhite>second line</c></lang>
+
+subtitle3
+00:00:24.000 --> 00:00:28.000 size:80% position:10% line:10% align:start vertical:rl
+<lang en><c.textWhite>first line</c></lang>
+
+subtitle4
+00:00:26.000 --> 00:00:28.000 size:80% position:10% line:10% align:start vertical:rl
+<lang en><c.textWhite>second line</c></lang>

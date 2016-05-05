@@ -1,0 +1,42 @@
+WEBVTT
+
+Region id=startBefore width=50% lines=9 regionanchor=0%,0% viewportanchor=0%,0% 
+
+Region id=endBefore width=50% lines=9 regionanchor=0%,0% viewportanchor=50%,0% 
+
+Region id=startAfter width=50% lines=9 regionanchor=0%,0% viewportanchor=0%,50% scroll=up
+
+Region id=endAfter width=50% lines=9 regionanchor=0%,0% viewportanchor=50%,50% scroll=up
+
+
+subtitle1
+00:00:10.000 --> 00:00:20.000 region:startBefore align:start
+<lang en><c.spanStyle>start/before</c></lang>
+
+subtitle2
+00:00:10.000 --> 00:00:20.000 region:endBefore align:end
+<lang en><c.spanStyle>end/before</c></lang>
+
+subtitle3
+00:00:10.000 --> 00:00:20.000 region:startAfter line:100%,end align:start
+<lang en><c.spanStyle>start/after</c></lang>
+
+subtitle4
+00:00:10.000 --> 00:00:20.000 region:endAfter line:100%,end align:end
+<lang en><c.spanStyle>end/after</c></lang>
+
+subtitle5
+00:00:22.000 --> 00:00:30.000 region:startBefore align:start
+<lang en><c.spanStyle>start/before</c></lang>
+
+subtitle6
+00:00:22.000 --> 00:00:30.000 region:endBefore align:end
+<lang en><c.spanStyle>end/before</c></lang>
+
+subtitle7
+00:00:22.000 --> 00:00:30.000 region:startAfter line:100%,end align:start
+<lang en><c.spanStyle>start/after</c></lang>
+
+subtitle8
+00:00:22.000 --> 00:00:30.000 region:endAfter line:100%,end align:end
+<lang en><c.spanStyle>end/after</c></lang>
