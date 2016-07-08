@@ -17,9 +17,15 @@ limitations under the License.
 -->
 <tt 
  xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
- xmlns:tts="http://www.w3.org/ns/ttml#styling" ttp:timeBase="media" xml:lang="en"
+ xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ebuttm="urn:ebu:tt:metadata"  ttp:timeBase="media" xml:lang="en"
  ttp:cellResolution="50 30">
 	<head>
+		<metadata>
+			<ebuttm:documentMetadata>
+				<ebuttm:conformsToStandard>urn:ebu:tt:distribution:2014-01</ebuttm:conformsToStandard>
+				<ebuttm:conformsToStandard>http://www.w3.org/ns/ttml/profile/imsc1/text</ebuttm:conformsToStandard>
+			</ebuttm:documentMetadata>
+		</metadata>
 		<styling>		
 			<style xml:id="spanStyle" tts:color="#ffffff" tts:backgroundColor="#000000" tts:fontSize="80%" tts:fontFamily="monospace"/>
 			<style xml:id="paragraphStyle" tts:textAlign="center" />

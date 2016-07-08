@@ -16,11 +16,16 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <tt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.w3.org/ns/ttml ../../../ebu-io/ebu-tt-d-xsd/ebutt_d.xsd"
  xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
- xmlns:tts="http://www.w3.org/ns/ttml#styling" ttp:timeBase="media" xml:lang="en"
+ xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ebuttm="urn:ebu:tt:metadata" ttp:timeBase="media" xml:lang="en"
  ttp:cellResolution="50 30">
 	<head>
+		<metadata>
+			<ebuttm:documentMetadata>
+				<ebuttm:conformsToStandard>urn:ebu:tt:distribution:2014-01</ebuttm:conformsToStandard>
+				<ebuttm:conformsToStandard>http://www.w3.org/ns/ttml/profile/imsc1/text</ebuttm:conformsToStandard>
+			</ebuttm:documentMetadata>
+		</metadata>
 		<styling>
 			<style xml:id="paragraphStyle" tts:textAlign="left" />
 			<style xml:id="style1" tts:backgroundColor="#000000" tts:color="#ffffff" tts:fontSize="100%" tts:fontStyle="normal" tts:fontWeight="bold" tts:fontFamily="monospace" />
