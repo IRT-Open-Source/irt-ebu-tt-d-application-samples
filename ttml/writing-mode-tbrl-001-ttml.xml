@@ -25,7 +25,7 @@ limitations under the License.
 		</tt:metadata>
 		<tt:styling>
 			<tt:style xml:id="textWhite" tts:color="#ffffff" tts:backgroundColor="#000000" tts:fontSize="160%" tts:fontFamily="monospace" />
-			<tt:style xml:id="paragraphAlign" tts:textAlign="right" />
+			<tt:style xml:id="paragraphAlign" tts:textAlign="start" />
 		</tt:styling>
 		<tt:layout>
 			<tt:region xml:id="right" tts:origin="10% 10%" tts:extent="80% 80%" tts:displayAlign="before" tts:writingMode="tbrl"/>
