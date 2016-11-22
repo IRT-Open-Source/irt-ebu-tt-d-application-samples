@@ -26,11 +26,12 @@ limitations under the License.
 			</ebuttm:documentMetadata>
 		</metadata>
 		<styling>		
-			<style xml:id="spanStyle" tts:color="#ffffff" tts:backgroundColor="#000000" tts:fontSize="160%" tts:fontFamily="monospace"/>
+			<style xml:id="spanStyle" tts:color="#ffffff" tts:fontSize="160%" tts:fontFamily="monospace"/>
 			<style xml:id="paragraphStyle" tts:textAlign="center"/>
+			<style xml:id="regionStyle" tts:backgroundColor="#000000"/>
 		</styling>
 		<layout>
-			<region xml:id="center" tts:origin="10% 80%" tts:extent="80% 10%" tts:displayAlign="center" tts:padding="60% 0% 20% 5%"/>
+			<region xml:id="center" style="regionStyle" tts:origin="10% 80%" tts:extent="80% 10%" tts:displayAlign="center" tts:padding="60% 0% 20% 5%"/>
 		</layout>
 	</head>
 	<body>
