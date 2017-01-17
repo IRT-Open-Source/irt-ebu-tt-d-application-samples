@@ -31,7 +31,7 @@ limitations under the License.
 			<style xml:id="regionStyle" tts:backgroundColor="#000000"/>
 		</styling>
 		<layout>
-			<region xml:id="center" style="regionStyle" tts:origin="10% 80%" tts:extent="80% 10%" tts:displayAlign="center" tts:padding="60% 0% 20% 5%"/>
+			<region xml:id="center" style="regionStyle" tts:origin="6% 74%" tts:extent="84% 18%" tts:displayAlign="center" tts:padding="33% 0% 11% 5%"/>
 		</layout>
 	</head>
 	<body>
